@@ -1,5 +1,4 @@
 html {
-	font-family: "Georgia", serif;
 	line-height: 2rem;
   box-sizing: border-box;
 }
@@ -9,18 +8,29 @@ html {
 }
 
 body {
+	background-color: #333;
   margin: 0;
   padding: 0;
 }
 
 header {
-	background-image: url("../images/narwhals-kissing.jpg");
+	font-family: 'Open Sans', sans-serif;
+	background-image: url("../images/narwhal-header.jpg");
+	background-size: auto;
+	height: 800px;
+
+	margin: 15px;
+}
+
+nav {
+padding-top: 40px;
+box-shadow: 4px 4px 7px rgba(0,0,0,0.5);
 }
 
 nav li{
 	float: left;
 	width: 25%;
-}
+	}
 
 nav ol {
 	margin: 0;
@@ -30,12 +40,32 @@ nav ol {
 }
 
 nav a {
+	border-left: 1px solid #fff;
 	display: block;
-	color: black;
-	font-size: 1.5rem;
+	background-color: #333;
+	color: white;
+	font-size: 0.8em;
 	text-decoration: none;
 	text-align: center;
 	padding: 0.5em;
 	margin: 0;
 	width: 100%;
+}
+
+.content {
+	font-family: "Georgia", serif;
+	color: #fff;
+}
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+}
+
+.right-div {
+	float: left;
+	width: 40%;
+}
+
+.left-div {
+	width: 60%;
 }
