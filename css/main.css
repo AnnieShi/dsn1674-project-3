@@ -1,5 +1,7 @@
 html {
-	line-height: 2rem;
+	font-family: "Georgia", serif;
+	color: #fff;
+	line-height: 1.5rem;
   box-sizing: border-box;
 }
 
@@ -9,22 +11,27 @@ html {
 
 body {
 	background-color: #333;
-  margin: 0;
+  margin: 25px;
   padding: 0;
 }
 
 header {
-	font-family: 'Open Sans', sans-serif;
 	background-image: url("../images/narwhal-header.jpg");
-	background-size: auto;
-	height: 800px;
+	background-repeat: no-repeat;
+}
 
-	margin: 15px;
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 1em;
+	padding-top: 20em;
+	text-align: center;
+	width: 100%;
+	bottom: 0;
 }
 
 nav {
-padding-top: 40px;
-box-shadow: 4px 4px 7px rgba(0,0,0,0.5);
+padding-top: 3em;
+box-shadow: 4px 4px 9px rgba(0,0,0,0.5);
 }
 
 nav li{
@@ -44,7 +51,7 @@ nav a {
 	display: block;
 	background-color: #333;
 	color: white;
-	font-size: 0.8em;
+	font-size: 1em;
 	text-decoration: none;
 	text-align: center;
 	padding: 0.5em;
@@ -52,20 +59,46 @@ nav a {
 	width: 100%;
 }
 
-.content {
-	font-family: "Georgia", serif;
-	color: #fff;
-}
+
 h2 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	color: #fff;
 }
 
-.right-div {
+ol li:hover {
+	background-color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+.top-left-div {
 	float: left;
 	width: 40%;
 }
 
-.left-div {
-	width: 60%;
+.basics-info-box {
+	background-color: #000;
+}
+
+.image-map {
+	float: right
+	width 40%;
+}
+ul {
+	list-style-type: none;
+	color: #fff;
+}
+
+footer {
+	background-color: #000;
+	background-position: center 5px;
+	text-align: center;
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+.narwhal-g {
+width: 50px;
+z-index: 1000em;
 }
