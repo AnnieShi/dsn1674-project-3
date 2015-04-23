@@ -96,7 +96,6 @@ p {
 }
 
 
-}
 .image-map {
 	position: relative;
 	float: right;
@@ -146,7 +145,7 @@ a{
 }
 
 footer {
-	background-color: #000;
+	background-color: #2868a6;
 	padding: 0px;
 	margin: 0px;
 	position: relative;
