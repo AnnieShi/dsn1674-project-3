@@ -1,7 +1,7 @@
 html {
 	font-family: "Georgia", serif;
 	color: #fff;
-	line-height: 1.5rem;
+	line-height: 1rem;
   box-sizing: border-box;
 }
 
@@ -11,30 +11,36 @@ html {
 
 body {
 	background-color: #333;
-  margin: 25px;
+  margin: 0;
   padding: 0;
 }
 
-header {
-	background-image: url("../images/narwhal-header.jpg");
-	background-repeat: no-repeat;
-}
+ img{
+ 	width: 100%;
+ 	position: relative;
+ 	z-index: -10;
+ }
 
 h1 {
 	font-family: 'Open Sans', sans-serif;
-	padding-bottom: 1em;
-	padding-top: 20em;
+	padding: 0.5em 2em 0.5em 0em;
+	margin: 0em;
 	text-align: center;
 	width: 100%;
-	bottom: 0;
+	font-size: 1.3rem;
+	position: relative;
+	bottom: 40px;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 nav {
-padding-top: 3em;
 box-shadow: 4px 4px 9px rgba(0,0,0,0.5);
+position: relative;
+top: 50px;
 }
 
 nav li{
+	font-family: 'Open Sans', sans-serif;
 	float: left;
 	width: 25%;
 	}
@@ -51,7 +57,7 @@ nav a {
 	display: block;
 	background-color: #333;
 	color: white;
-	font-size: 1em;
+	font-size: 0.7em;
 	text-decoration: none;
 	text-align: center;
 	padding: 0.5em;
@@ -59,10 +65,8 @@ nav a {
 	width: 100%;
 }
 
-
-h2 {
-	font-family: "Open Sans", sans-serif;
-	color: #fff;
+ol a:hover{
+	background-color: #000;
 }
 
 ol li:hover {
@@ -71,34 +75,58 @@ ol li:hover {
 	padding: 0;
 }
 
-.top-left-div {
-	float: left;
-	width: 40%;
+h2 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
-.basics-info-box {
-	background-color: #000;
+p {
+	margin-top: 4px;
+	font-size: 0.7rem;
 }
 
+.basics-infobox {
+	background-color: #2868a6;
+	padding: .25em;
+	width: 50%;
+	margin-right: 0em;
+}
+
+
+}
 .image-map {
-	float: right
-	width 40%;
+	position: relative;
+	float: right;
+	width: 50%;
+	padding: 0em;
+	margin: 0em;
 }
+
 ul {
 	list-style-type: none;
+	color: #fff;
+	font-size: 0.7rem;
+	display: inline;
+	padding-bottom: 10px;
+}
+
+a{
 	color: #fff;
 }
 
 footer {
 	background-color: #000;
-	background-position: center 5px;
-	text-align: center;
-	clear: both;
 	padding: 0px;
 	margin: 0px;
+	position: relative;
 }
 
 .narwhal-g {
-width: 50px;
-z-index: 1000em;
+width: 70px;
+z-index: 10;
+margin: 10px;
+padding: 0em;
 }
