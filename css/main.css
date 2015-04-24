@@ -84,7 +84,7 @@ h2 {
 }
 
 p {
-	margin: 8px;
+	margin: 2px 8px 8px 8px;
 	font-size: 0.7rem;
 }
 
@@ -104,7 +104,7 @@ p {
 }
 
 .mid-div {
-	padding-top: 4em;
+	padding-top: 2.5em;
 }
 
 
@@ -126,7 +126,7 @@ p {
 }
 
 .bottom-div {
-	padding-top: 1em;
+	padding-top: 0.5em;
 }
 
 .threats-infobox {
@@ -144,7 +144,7 @@ p {
 }
 
 .sources-div {
-	padding-top: 2em;
+	padding-top: 1.5em;
 }
 
 ul {
