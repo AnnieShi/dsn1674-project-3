@@ -103,6 +103,9 @@ p {
 	margin: 0em;
 }
 
+.mid-div {
+	padding-top: 4em;
+}
 
 
 .imp-infobox {
@@ -122,6 +125,10 @@ p {
 
 }
 
+.bottom-div {
+	padding-top: 1em;
+}
+
 .threats-infobox {
 	background-color: #2868a6;
 	width: 50%;
@@ -136,6 +143,10 @@ p {
 	margin: 0em;
 }
 
+.sources-div {
+	padding-top: 2em;
+}
+
 ul {
 	list-style-type: none;
 	display: inline;
@@ -146,7 +157,7 @@ a{
 	font-size: 0.7rem;
 	padding-bottom: 10px;
 	color: #fff;
-	margin-left: 4px;
+	margin-left: 8px;
 }
 
 footer {
