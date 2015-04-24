@@ -79,12 +79,12 @@ h2 {
 	font-family: "Open Sans", sans-serif;
 	font-size: 1em;
 	color: #fff;
-	margin-top: 0;
-	margin-bottom: 0;
+	margin: 2px 0px 0px 4px;
+
 }
 
 p {
-	margin-top: 4px;
+	margin: 4px;
 	font-size: 0.7rem;
 }
 
@@ -134,20 +134,21 @@ p {
 
 ul {
 	list-style-type: none;
-	color: #fff;
-	font-size: 0.7rem;
 	display: inline;
-	padding-bottom: 10px;
+	padding: 0em;
 }
 
 a{
+	font-size: 0.7rem;
+	padding-bottom: 10px;
 	color: #fff;
+	margin-left: 4px;
 }
 
 footer {
 	background-color: #2868a6;
 	padding: 0px;
-	margin: 0px;
+	margin: 40px 0px 0px 0px;
 	position: relative;
 }
 
